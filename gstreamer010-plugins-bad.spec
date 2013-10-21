@@ -7,7 +7,7 @@
 Summary:	Bad GStreamer Streaming-media framework plugins
 Name:		gstreamer010-plugins-bad
 Version:	0.10.23
-Release:	4
+Release:	5
 License:	LPL
 Group:		Libraries
 Source0:	http://gstreamer.freedesktop.org/src/gst-plugins-bad/%{gstname}-%{version}.tar.xz
@@ -47,7 +47,6 @@ BuildRequires:	libsndfile-devel
 BuildRequires:	libstdc++-devel
 BuildRequires:	libx264-devel
 BuildRequires:	mjpegtools-devel
-BuildRequires:	neon-devel
 BuildRequires:	openal-soft-devel
 BuildRequires:	rpm-gstreamerprov
 BuildRequires:	vo-aacenc-devel
@@ -211,7 +210,6 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{gstlibdir}/libgstmplex.so
 %attr(755,root,root) %{gstlibdir}/libgstmve.so
 %attr(755,root,root) %{gstlibdir}/libgstmxf.so
-%attr(755,root,root) %{gstlibdir}/libgstneonhttpsrc.so
 %attr(755,root,root) %{gstlibdir}/libgstnsf.so
 %attr(755,root,root) %{gstlibdir}/libgstnuvdemux.so
 %attr(755,root,root) %{gstlibdir}/libgstofa.so
@@ -271,7 +269,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_includedir}/gstreamer-0.10/gst/video/gstbasevideocodec.h
 %{_includedir}/gstreamer-0.10/gst/video/gstbasevideodecoder.h
 %{_includedir}/gstreamer-0.10/gst/video/gstbasevideoencoder.h
-%{_includedir}/gstreamer-0.10/gst/video/gstbasevideoutils.h
 %{_includedir}/gstreamer-0.10/gst/video/gstbasevideoutils.h
 %{_includedir}/gstreamer-0.10/gst/video/gstsurfacebuffer.h
 %{_includedir}/gstreamer-0.10/gst/video/gstsurfaceconverter.h

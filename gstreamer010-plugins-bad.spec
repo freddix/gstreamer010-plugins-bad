@@ -7,7 +7,7 @@
 Summary:	Bad GStreamer Streaming-media framework plugins
 Name:		gstreamer010-plugins-bad
 Version:	0.10.23
-Release:	5
+Release:	6
 License:	LPL
 Group:		Libraries
 Source0:	http://gstreamer.freedesktop.org/src/gst-plugins-bad/%{gstname}-%{version}.tar.xz
